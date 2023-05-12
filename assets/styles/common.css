@@ -1,0 +1,60 @@
+body {
+    overflow-x: hidden;
+    font-size: 1.2rem;
+}
+
+.section {
+    padding: 20px;
+}
+
+.text-bold {
+    font-weight: bolder;
+}
+
+.title {
+    width: fit-content;
+    text-align: center;
+    position: relative;
+}
+.title > h1 {
+    font-size: 4rem;
+    font-family: 'Nosifer', cursive;
+    opacity: 0.1;
+    letter-spacing: -12px;
+}
+
+.title > h2 {
+    font-family: 'Sigmar', cursive;
+    font-size: 2.4rem;
+    position: absolute;
+    top: 1.2rem;
+    right: 0;
+    left: 0;
+    margin: auto;
+    color: #e65100;
+}
+
+.title-mid {
+    margin: auto;
+}
+
+.title-end {
+    margin-left: auto;
+}
+
+button {
+    background: white;
+    border: 3px solid #e65100;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button > svg {
+    margin-left: 10px;
+    color: #e65100;
+}
+
+.nav-menu {
+    width: auto!important;
+}

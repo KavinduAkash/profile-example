@@ -1,0 +1,21 @@
+#education .edu-card {
+    width: 100%;
+    min-height: 100px;
+    border: 2.5px solid #e65100;
+    display: flex;
+    max-width: 550px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+#education .edu-card h1 {
+    font-weight: bold;
+}
+
+#education .edu-card img {
+    width: 200px;
+    margin-left: 100px;
+}

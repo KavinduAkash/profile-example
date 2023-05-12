@@ -1,0 +1,30 @@
+.assignment-card {
+    background: #e65100;
+    border: 2px solid #e65100;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.assignment-card > .assignment-img {
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.assignment-card > .assignment-text {
+    text-align: center;
+    padding: 20px;
+}
+
+.assignment-card > .assignment-text > h3 {
+    padding: 20px;
+    font-family: 'Sigmar', cursive;
+    color: white;
+}
+
+.assignment-card > .assignment-text > span {
+    background: yellow;
+    padding: 5px 10px;
+    border-radius: 5px;
+}

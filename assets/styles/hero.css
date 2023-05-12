@@ -1,0 +1,41 @@
+#hero > div:nth-child(1) {
+    background: #ffd180;
+    border: 2px solid #e65100;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+#hero > div:nth-child(1) > img {
+    width: 115%;
+}
+
+#hero > h1 {
+    font-family: 'Sigmar', cursive;
+    background: -webkit-linear-gradient(#e65100, #ffe082);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#hero > h5 {
+    font-family: 'Nosifer', cursive;
+    color: #bf360c;
+}
+
+#hero > #social-media {
+    color: black;
+    font-size: 2rem;
+}
+
+#hero > #social-media > a {
+    color: inherit;
+    transition: 0.3s;
+}
+
+#hero > #social-media > a:hover {
+    color: #e65100;
+    transition: 0.3s;
+}
